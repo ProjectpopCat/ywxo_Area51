@@ -1,0 +1,17 @@
+if game.PlaceId == 155382109 then -- Menu
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/Menu"))()
+elseif game.PlaceId == 2675280735 then -- Endless
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/Endless"))()
+elseif game.PlaceId == 2092166489 or game.PlaceId == 5740483929 or game.PlaceId == 3182083477 then -- Classic
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/Classic"))()
+
+elseif game.PlaceId == 4678052190 then -- Juggernaut
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/notyet"))()
+elseif game.PlaceId == 6054929906 then -- Boss Rush
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/notyet"))()
+elseif game.PlaceId == 4631179692 then -- Killhouse
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/Killhouse"))()
+
+else
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxo_Area51/main/Funny"))()
+end
